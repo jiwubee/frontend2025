@@ -1,2 +1,2 @@
-# frontend2025
-Frontend Development 2025
+# Frontend Development 2025
+Oliwia Wądołowska gr3
