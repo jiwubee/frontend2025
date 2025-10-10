@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Pokédex</h1>
+    <input type="text" id="search" placeholder="Search Pokemon..." />
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="error" class="hidden"></div>
+    <div class="container">
+      <div id="pokemon-list" class="list"></div>
+      <div id="pokemon-details" class="details info">Details about pokemon</div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
